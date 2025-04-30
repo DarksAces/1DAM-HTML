@@ -33,7 +33,7 @@ async function cargarPaginaInicio() {
             const nombreCorregido = corregirNombre(poke.name);
             const finalRes = await fetch(`${apiUrl}pokemon/${nombreCorregido}`);
             const finalPoke = await finalRes.json();
-
+            
             const tipos = poke.types.map(t => t.type.name).join(', ');
 
             const speciesRes = await fetch(poke.species.url);
