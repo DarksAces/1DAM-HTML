@@ -2,7 +2,7 @@ const formulario = document.getElementById('formulario');
 const resultado = document.getElementById('resultado');
 
 // Función principal de búsqueda
-formulario.addEventListener('submit', async (e) => {
+formulario?.addEventListener('submit', async (e) => {
   e.preventDefault();
   const busqueda = document.getElementById('busqueda').value.trim();
 
