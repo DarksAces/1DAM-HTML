@@ -4,7 +4,7 @@ function toggleExplanation(id) {
         explanation.style.display = 'none';
     } else {
         var explanations = document.querySelectorAll('.explanation');
-        explanations.forEach(function(explanation) {
+        explanations.forEach(function (explanation) {
             explanation.style.display = 'none';
         });
         explanation.style.display = 'block';

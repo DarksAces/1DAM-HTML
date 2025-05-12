@@ -40,9 +40,9 @@ nav a:hover {
 }
 
 /* IDs para navegación activa */
-nav a#Home, 
-nav a#habitad, 
-nav a#objetos, 
+nav a#Home,
+nav a#habitad,
+nav a#objetos,
 nav a#Buscador {
     background-color: white;
     color: #e3350d;
@@ -75,7 +75,9 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #ddd;
 }
 
@@ -121,4 +123,5 @@ img {
 }
 
 #pokemonInput {
-    padding: 8px 15px;}
+    padding: 8px 15px;
+}

@@ -1,20 +1,24 @@
-body{
+body {
     margin: 0px;
 }
-header{
+
+header {
     background-color: rgb(135, 199, 71);
     width: 100%;
-    height: 100%    ;
+    height: 100%;
 }
-header img{
+
+header img {
     width: 30%;
     margin-left: 35%;
-    
+
 
 }
-header nav{
+
+header nav {
     align-items: center;
 }
+
 header ul {
     text-decoration: none;
     list-style: none;
@@ -23,9 +27,11 @@ header ul {
     color: #fff;
     text-align: center;
 }
-header a{
+
+header a {
     text-decoration: none;
 }
+
 header li {
     text-decoration: none;
     display: inline;
@@ -33,72 +39,82 @@ header li {
     color: #000000;
 
 }
-#ID{
+
+#ID {
     color: #d30000;
 }
 
-li a{
-    color:#000000;
+li a {
+    color: #000000;
 }
-.SoluTec{
+
+.SoluTec {
     background-color: rgb(135, 199, 71);
     margin-top: 5%;
     border-radius: 10px;
 
 }
+
 .SoluTec li {
     text-decoration: none;
     list-style: none;
     color: #ffffff;
 
 }
+
 .expanded-content {
     display: none;
     color: #d30000;
 }
+
 .expanded .expanded-content {
     display: block;
     color: #352c2c;
 }
 
-.ProDev{
+.ProDev {
     background-color: rgb(135, 199, 71);
     border-radius: 10px;
     padding-left: 2%;
 
 }
 
-.ods{
+.ods {
     margin-top: 5%;
     background-color: rgb(135, 199, 71);
     border-radius: 10px;
     padding-left: 2%;
 }
-.ods1-4{
-padding-top: 5%;
+
+.ods1-4 {
+    padding-top: 5%;
 }
+
 .explanation {
     display: none;
     margin-top: 10px;
-    
-  
-} 
-.all{
+
+
+}
+
+.all {
     display: grid;
     min-height: 100dvh;
-    grid-template-rows: 
-    auto lfr auto;
+    grid-template-rows:
+        auto lfr auto;
 }
-footer{
+
+footer {
 
     background-color: rgb(135, 199, 71);
     color: rgb(0, 0, 0);
-    margin-top: 3rem; 
-    padding: 1.5rem; 
+    margin-top: 3rem;
+    padding: 1.5rem;
     text-align: center;
     margin-top: 5%;
 }
-footer h1{
+
+footer h1 {
 
     text-align: center;
 }

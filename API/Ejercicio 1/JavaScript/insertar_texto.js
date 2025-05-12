@@ -1,5 +1,5 @@
 // Original text content
-js_logo.src =  '../Imagenes/Iconos/JavaScriptIcon.webp';
+js_logo.src = '../Imagenes/Iconos/JavaScriptIcon.webp';
 Nombre_Web.innerHTML = 'Testing Web';
 
 Comparador_textos.innerHTML = 'Comparador de Textos';

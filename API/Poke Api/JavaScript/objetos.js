@@ -76,8 +76,8 @@ async function mostrarObjetos(objetos, contenedor) {
 
             const nombreES = detalles.names.find(n => n.language.name === "es")?.name || detalles.name;
             const descripcionES = detalles.flavor_text_entries.find(t => t.language.name === "es")?.text ||
-                                  detalles.flavor_text_entries.find(t => t.language.name === "en")?.text ||
-                                  "No hay descripción disponible";
+                detalles.flavor_text_entries.find(t => t.language.name === "en")?.text ||
+                "No hay descripción disponible";
 
             const esConsumible = detalles.attributes.some(attr => attr.name === "consumable");
             const usableEnBatalla = detalles.attributes.some(attr => attr.name === "usable-in-battle");

@@ -1,5 +1,5 @@
-document.getElementById('formulario').addEventListener('submit', function(event) {
-    event.preventDefault(); 
+document.getElementById('formulario').addEventListener('submit', function (event) {
+    event.preventDefault();
 
     let nombre = document.getElementById('nombre').value;
     let email = document.getElementById('email').value;
@@ -7,8 +7,8 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     let mensaje = document.getElementById('mensaje').value;
 
     alert("Formulario enviado con éxito.\n\n" +
-          "Nombre: " + nombre + 
-          "\nCorreo Electrónico: " + email +
-          "\nTeléfono: " + telefono +
-          "\nMensaje: " + mensaje);
+        "Nombre: " + nombre +
+        "\nCorreo Electrónico: " + email +
+        "\nTeléfono: " + telefono +
+        "\nMensaje: " + mensaje);
 });

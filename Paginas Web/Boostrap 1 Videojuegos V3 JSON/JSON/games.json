@@ -9,7 +9,6 @@
                 "id": "modal1",
                 "title": "Aventura Épica",
                 "body": "Vuelvete el campeon de Azeroth en el eterno enfrentamiento de la Horda y la Alianza. "
-                
             }
         },
         {
@@ -33,7 +32,8 @@
                 "title": "Campeones del Deporte",
                 "body": "Vive la emoción de los deportes con competiciones sin igual."
             }
-        },        {
+        },
+        {
             "title": "The legend of Zelda Tears of the kingdom",
             "description": "Enbarcate en una emocionante aventura por Hyrule",
             "image": "../Fotos/Cards Juegos/ZTOK.png",
@@ -92,7 +92,6 @@
             "title": "Tetris",
             "description": "Apila bloques",
             "image": "../Fotos/Cards Juegos/Tetris.png",
-           
             "calificacion": "⭐⭐⭐⭐",
             "modal": {
                 "id": "modal9",

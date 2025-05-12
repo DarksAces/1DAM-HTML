@@ -33,7 +33,12 @@ header img {
 }
 
 /* Estilos para las secciones */
-#Text_comparer, #contar30, #colores, #cambioTamano, #raiz, #cafeteria {
+#Text_comparer,
+#contar30,
+#colores,
+#cambioTamano,
+#raiz,
+#cafeteria {
     margin: 20px auto;
     width: 80%;
     max-width: 800px;
@@ -54,7 +59,8 @@ header img {
     margin-top: 15px;
 }
 
-#texto1, #texto2 {
+#texto1,
+#texto2 {
     width: 40%;
     padding: 8px;
     border-radius: 10px;
@@ -116,7 +122,8 @@ header img {
     width: 45%;
 }
 
-#altura, #anchura {
+#altura,
+#anchura {
     width: 80px;
     padding: 5px;
     border-radius: 5px;
@@ -152,7 +159,8 @@ header img {
     align-items: center;
 }
 
-#numero, #resultado_raiz {
+#numero,
+#resultado_raiz {
     width: 120px;
     padding: 8px;
     border-radius: 10px;

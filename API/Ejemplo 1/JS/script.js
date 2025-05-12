@@ -19,15 +19,15 @@
 // }
 
 //function holaMundo(texto1) {
- // console.log(texto1);
- //}
+// console.log(texto1);
+//}
 
- //holaMundo('Hola Mundo!');
+//holaMundo('Hola Mundo!');
 
 //function holaMundo(texto1) {
 //  return texto1;
-  // }
-  
+// }
+
 //  holaMundo('Hola Mundo!');
 
 
@@ -40,7 +40,7 @@
 //    var num1 = Number(document.getElementById('num1').value);
 //    var num2 = Number(document.getElementById('num2').value);
 //    var result = num1 + num2;
- //   document.getElementById('parrafo1').innerText = 'Resultado: ' + result;
+//   document.getElementById('parrafo1').innerText = 'Resultado: ' + result;
 //}
 
 //function datos() {
@@ -55,7 +55,7 @@
 //}
 
 //function suma(num1, num2) {
-  
+
 //    alert("La suma de " + num1 + " + " + num2 + " es: " + (num1 + num2));
 //}
 
@@ -72,7 +72,7 @@
 
 // }
 
-    // console.log(persona.nombre, persona.apellido, persona.apellido2, persona.aficiones[0]);
+// console.log(persona.nombre, persona.apellido, persona.apellido2, persona.aficiones[0]);
 
 // console.log(persona.nombre);
 // console.log(persona.apellido);
@@ -100,7 +100,7 @@
 //             pais: 'España',
 //         },
 //     }
-    
+
 //     };
 
 //     for (let key in persona.direcciones) {
@@ -131,8 +131,8 @@ function checkRadio() {
   let selected = document.querySelector('input[name="names"]:checked');
 
   if (selected) {
-      console.log("El seleccionado es: " + selected.value);
+    console.log("El seleccionado es: " + selected.value);
   } else {
-      console.log("No hay selección");
+    console.log("No hay selección");
   }
 }

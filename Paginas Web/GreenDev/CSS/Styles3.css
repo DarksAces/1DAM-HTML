@@ -1,20 +1,24 @@
-body{
+body {
     margin: 0px;
 }
-header{
+
+header {
     background-color: rgb(135, 199, 71);
     width: 100%;
-    height: 100%    ;
+    height: 100%;
 }
-header img{
+
+header img {
     width: 30%;
     margin-left: 35%;
-    
+
 
 }
-header nav{
+
+header nav {
     align-items: center;
 }
+
 header ul {
     text-decoration: none;
     list-style: none;
@@ -23,9 +27,11 @@ header ul {
     color: #fff;
     text-align: center;
 }
-header a{
+
+header a {
     text-decoration: none;
 }
+
 header li {
     text-decoration: none;
     display: inline;
@@ -33,7 +39,8 @@ header li {
     color: #000000;
 
 }
-#CostAmb{
+
+#CostAmb {
     margin-top: 100px;
     background-color: rgb(135, 199, 71);
     border-radius: 10px;
@@ -43,16 +50,17 @@ header li {
 
 }
 
-#CostAmb img{
+#CostAmb img {
     display: flex;
     margin-top: -120px;
 }
 
-#CostAmb:hover{
+#CostAmb:hover {
     transition-duration: 2s;
     background-color: rgb(36, 201, 124);
 }
-#VCE{
+
+#VCE {
     margin-top: 100px;
     background-color: rgb(135, 199, 71);
     border-radius: 10px;
@@ -62,16 +70,17 @@ header li {
 
 }
 
-#VCE img{
+#VCE img {
     display: flex;
     margin-top: -150px;
 }
 
-#VCE:hover{
+#VCE:hover {
     transition-duration: 2s;
     background-color: rgb(36, 201, 124);
 }
-#KM0{
+
+#KM0 {
     margin-top: 100px;
     background-color: rgb(135, 199, 71);
     border-radius: 10px;
@@ -80,40 +89,43 @@ header li {
     transition-duration: 2s;
 }
 
-#KM0 img{
+#KM0 img {
     display: flex;
     margin-top: -150px;
-    
+
 }
 
-#KM0:hover{
+#KM0:hover {
     transition-duration: 2s;
     background-color: rgb(36, 201, 124);
-    
+
 }
-#Sostenibilidad{
+
+#Sostenibilidad {
     color: #d30000;
 }
 
-li a{
-    color:#000000;
+li a {
+    color: #000000;
 }
-footer{
+
+footer {
 
     background-color: rgb(135, 199, 71);
     color: rgb(0, 0, 0);
-    margin-top: 3rem; 
-    padding: 1.5rem; 
-    text-align: center;
-}
-footer h1{
-  
+    margin-top: 3rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
-.all{
+footer h1 {
+
+    text-align: center;
+}
+
+.all {
     display: grid;
     min-height: 100dvh;
-    grid-template-rows: 
-    auto lfr auto;
+    grid-template-rows:
+        auto lfr auto;
 }

@@ -4,7 +4,6 @@
         <cf:titulo>El ritmo de la guerra</cf:titulo>
         <cf:autor>Brandon Sanderson</cf:autor>
         <cf:año_publicacion>17 de noviembre de 2020</cf:año_publicacion>
-
     </cf:libro>
     <cf:libro>
         <cf:titulo>Rekoners calamity</cf:titulo>
@@ -15,5 +14,5 @@
         <cf:titulo>Yumi y el pintor de pesadillas</cf:titulo>
         <cf:autor>Brandon Sanderson</cf:autor>
         <cf:año_publicacion>1 de julio de 2023</cf:año_publicacion>
-</cf:libro> 
+    </cf:libro>
 </libros>
